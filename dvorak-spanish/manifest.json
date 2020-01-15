@@ -1,0 +1,28 @@
+{
+  "name": "Dvorak Spanish",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Dvorak Spanish",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "icons": {
+    "16": "spock-16.png",
+    "48": "spock-48.png",
+    "128": "spock-128.png"
+  },
+  "permissions": [
+    "input"
+  ],
+  "input_components": [
+    {
+      "name": "Dvorak Spanish",
+      "type": "ime",
+      "id": "dvorak_spa",
+      "description": "Dvorak Spanish",
+      "language": "es",
+      "layouts": ["dvorak-es"]
+    }
+  ]
+}
+
